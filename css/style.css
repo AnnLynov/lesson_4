@@ -1,0 +1,65 @@
+@import "reset.css";
+@import url(https://fonts.googleapis.com/css?family=Roboto:700&display=swap);
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+div {
+   font-family: 'Lato', serif;
+   font-weight: 700;
+}
+div p {
+   font-family: 'Lato', serif;
+   font-weight: 400;
+}
+.header-menu {
+   font-family: 'Larsseit', serif;
+   font-weight: 700;
+   color: rgb(71, 31, 146);
+}
+img {
+   max-width: 300px;
+}
+span {
+   color: blueviolet;
+}
+.shock > p {
+   color: blue;
+}
+.header-menu {
+   color: chartreuse;
+}
+.header-menu span {
+   color: darkgoldenrod;
+}
+h3 + p {
+   color: darkgreen;
+}
+.the-day,
+.analize {
+   color: rgb(16, 99, 13);
+}
+#date p{
+   color: coral;
+}
+ul + p {
+   font-family: 'Roboto';
+   font-weight: 700;
+}
